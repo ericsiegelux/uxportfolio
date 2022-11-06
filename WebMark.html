@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta property="og:title" content="WebMark | Eric Siegel's UX Portfolio" />
+      <meta property="og:image" content="logoii.png" />
+      <meta property="og:url" content="http://siegelux.com" />
+      <link rel="shortcut icon" href="tab_icon.png" type="image/png">
+      <title>WebMark | Eric Siegel's UX Portfolio</title>
+      <link rel="stylesheet" href="WebMark.css">
+      <script src="navbar.js"></script>
+   </head>
+   <body>
+      <div id="top_container">
+         <nav class="flexmenu">
+            <div class="flex">
+               <img id="logo" src="logoii.png" style="cursor: pointer;" onclick="window.location='index.html';">
+               <div class="menu">
+                  <a href="about.html">About</a>
+               </div>
+               <div class="menu">
+                  <a href="Resume.pdf" target="_blank">Resume</a>
+               </div>
+               <div class="menu">
+                  <a href="connect.html">Connect</a>
+               </div>
+               <div class="mobile-menu">
+                  <span class="menu-icon open">&#x2261;</span>
+                  <span class="menu-icon close">&#x2715;</span>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <div id="top">
+         <div id="Cover_Photo">
+            <a href="">
+            <img src="">
+            </a>
+         </div>
+         <div id = "Statement">
+            <span style="font-size: 20px;">
+             <span style="font-weight:bold">WebMark</span>
+               A web application allowing users to curate their web activity in an artistic way.
+            </span>
+            <p> </p>
+         </div>
+      </div>
+      <div id="work">
+         <div id="gallery">
+            <div class="column_section">
+               <span style="text-decoration: underline;">Duration</span>
+               <div class="work_item">
+                  June 2020 - October 2020
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Role</span>
+               <div class="work_item">
+                  UX Designer, UI Designer, Front End Developer
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Tools</span>
+               <div class="work_item">
+                  HTML, CSS, Javascript, Firebase, Sketch 
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Platform</span>
+               <div class="work_item">
+                  Web App
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Team</span>
+               <div class="work_item">
+                  3
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Introduction</h1>
+         <div class = "content_statement">
+            <p> At the beginning of quarantine for the COVID-19 pandemic, I knew I wanted to create a web application with all the spare time I had. My focus was on allowing users to easily document their experience during this unprecedented time. <br><br>
+               I noticed a couple of weeks into quarantine, I was spending a great deal of time on my desktop. Since I didn't have a lot of lived experiences to journal, I wondered: <br><br>
+               <span style="font-style: italic;font-size: 22px">Could curating your web activity be the next form of journaling?</span>
+            </p>
+         </div>
+      </div>
+      <div class="content">
+         <h1> User Research Part I</h1>
+         <div class = "content_statement">
+            <h4>Habit Data</h4>
+            <p>Before starting my design process, I wanted to get a sense of what people's journaling habits and desktop usage habits were. I collected these responses by sending out a Google Form to friends and friends of friends: </p>
+            <ul style="font-size: 20px;">
+               <p>&not; 58 Responses</p>
+               <p>&not; Average age: 29.85 years old</p>
+               <p>&not; How often do you journal per week?: 1.264 times per week</p>
+               <p>&not; How many hours a day do you use your laptop/desktop?: 6.424 hours per day</p>
+            </ul>
+         </div>
+         <div class = "content_statement">
+            <h4>Visited Sites Data</h4>
+            <p>In addition to getting users' habit data, I wanted my design decisions to be informed by what websites people were using most frequently due to Jakob's Law. <br><br>
+               <span style="font-style: italic;font-size: 22px">Jakob's law states: Users spend most of their time on other sites. This means that users prefer your site to work the same way as all the other sites they already know.</span> <br><br>
+               Here are the websites I was going to take design and user experience hints from: <br><br>
+            </p>
+            <div class='tableauPlaceholder' id='viz1598908012500' style='position: relative'>
+               <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;Top5WebsitesVisited&#47;Top5WebsitesVisitedSheet&#47;1_rss.png' style='border: none' /></a></noscript>
+               <object class='tableauViz'  style='display:none;'>
+                  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                  <param name='embed_code_version' value='3' />
+                  <param name='site_root' value='' />
+                  <param name='name' value='Top5WebsitesVisited&#47;Top5WebsitesVisitedSheet' />
+                  <param name='tabs' value='no' />
+                  <param name='toolbar' value='yes' />
+                  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;To&#47;Top5WebsitesVisited&#47;Top5WebsitesVisitedSheet&#47;1.png' />
+                  <param name='animate_transition' value='yes' />
+                  <param name='display_static_image' value='yes' />
+                  <param name='display_spinner' value='yes' />
+                  <param name='display_overlay' value='yes' />
+                  <param name='display_count' value='yes' />
+                  <param name='language' value='en' />
+                  <param name='filter' value='publish=yes' />
+               </object>
+            </div>
+            <script type='text/javascript'>                    var divElement = document.getElementById('viz1598908012500');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='70%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            <!-- 
+               <div id="content_pic">
+                   <a href="figures.png" target="_blank">
+                     <img src="figures.png">
+                   </a> 
+                 </div>  -->
+         </div>
+      </div>
+      <div class="content">
+         <h1>Initial Ideas and Designs</h1>
+         <div class = "content_statement">
+            <p> In order to recruit my fellow UI/UX Designer, Jason Kuang, and my backend developer, Akaash Venkat, I created three informational pieces/visuals to explain my initial ideas and designs. I had pitched the idea under the name: WebMark.</p>
+         </div>
+         <div class = "content_statement">
+            <h4>Design Manifesto</h4>
+            <p>I wanted to outline what WebMark's intention is and how user's can use it: </p>
+            <span style="font-style: italic; margin-left: 20px;">WebMark is an <font> online platform</font> that acts as an interactive <font> journal</font> for your <font> online activity</font>. <br><br>
+            WebMark bridges the gap between bookmarking and visualizing interesting items you come across online, whether it’s YouTube videos, songs on Spotify, or articles on Medium. <br><br> 
+            All you have to do is <font> add a link</font> manually on your WebMark profile page or use our Google Chrome Extension to create an <font> interactive</font> entry for that link. If it’s a video, you can play it right on WebMark. <br><br> 
+            </span>
+         </div>
+         <div class = "content_statement">
+            <h4> User Flow </h4>
+            <img src="WebMark/userflow.png">
+         </div>
+         <div class = "content_statement">
+            <h4>Lo-Fi Wireframe</h4>
+            <p>There are three major points where I had to design lo-fi wireframes:</p>
+            <br>
+            <ol>
+               <li>The Homepage</li>
+               <li>The Walkthrough page</li>
+               <li>The WebMark page</li>
+            </ol>
+            <br>
+            <p>
+               The Homepage was inspired by the Gmail and Facebook sign in pages: spliting the screen in vertical halves, with a quick intro on the left and sign up div on the right. <br><br>
+               The most unique design for WebMark is the WebMark page. Discussing with my other UI/UX Designer Jason, we wanted the WebMark page to have an asymetrical layout in order to distinguish.
+            </p>
+            <div id="lofi_pics">
+               <img src="WebMark/lofihome.png">
+               <p class="right_arrow"> &#8594;</p>
+               <p class="down_arrow"> &#8595;</p>
+               <img src="WebMark/lofiwalk.png">
+               <p class="right_arrow"> &#8594;</p>
+               <p class="down_arrow"> &#8595;</p>
+               <img src="WebMark/lofi.png">
+            </div>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Style Guide</h1>
+         <div class = "content_statement styleguide">
+            <img src="WebMark/styleguide.png">
+         </div>
+      </div>
+      <div class="content">
+         <h1>High Fidelity Wireframe</h1>
+         <div class = "content_statement multi_pic">
+            <div>
+               <img src="WebMark/hifihome.png">
+            </div>
+            <div>
+               <img src="WebMark/hifi.png">
+            </div>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Building the MVP</h1>
+         <div class = "content_statement">
+            <h4>iframe Adjustment from initial design</h4>
+            <p>The main issue that Akaash and I ran into was the interactive side of WebMark. Initially, I planned to implement interactivity in the form of iframes, which are HTML tags where you can add a source URL and the user can scroll the site from that div. <br><br>
+               Below is an example of an iframe for my portfolio and a youtube video: <br> (Go Ahead! Scroll through the sites/play the video)
+            </p>
+            <div id="twoframes">
+               <iframe src="https://siegelux.com/" ></iframe> <iframe src="https://www.youtube.com/embed/oJPKoF-xccY"></iframe>
+            </div>
+         </div>
+         <div class = "content_statement">
+            <p>Now, certain websites have a setting (called an x-frame-options setting) to prevent their sites from being put in an iframe. This is limit instances of session hijacking or basically someone hacking your account. <br><br>
+               Notice what happens when I put a google search in an iframe:
+            </p>
+            <p>URL: https://www.google.com/ </p>
+            <iframe src="https://www.google.com/" height="200px"></iframe>
+            <p>
+               On the backend, I get this error: <br><br>
+            </p>
+            <img id="xframe" src="WebMark/xframe.png">
+         </div>
+         <div class = "content_statement">
+            <p>Insert Slight Panic <span style="font-size: 40px;">&#129397;</span>
+            </p>
+            <p>After some quick reconnaissance research, I thought we could replace some of the iframes for websites with screenshots of the sites and making the WebMarks clickable so users could visit the sites stored with a single click. The implementation for the web screnshots came by using <a href="https://www.selenium.dev/">Selenium</a> to take screenshots of websites that weren't videos or social media posts, which are allowed to be put in iframes.</p>
+            <p>
+               Crisis quickly averted <span style="font-size: 40px;">&#128524;</span>
+            </p>
+         </div>
+         <div class = "content_statement">
+            <h4> THE MVP!</h4>
+            <p> After the iframe adjustment and a couple of months working, WebMark's MVP was ready to roll out. This is the site where we would begin our user interviews on what they like about the site and what could be improved:</p>
+            <div onclick="mvp()"></div>
+            <script type="text/javascript">
+               // function mvp(){
+               //   window.open(http://webmark-project.herokuapp.com/, '_blank');
+               // }
+            </script>
+         </div>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta property="og:title" content="Musaic | Eric Siegel's UX Portfolio" />
+      <meta property="og:image" content="logoii.png" />
+      <meta property="og:url" content="http://siegelux.com" />
+      <link rel="shortcut icon" href="tab_icon.png" type="image/png">
+      <title>Musaic | Eric Siegel's UX Portfolio</title>
+      <link rel="stylesheet" href="Musaic.css">
+      <script src="navbar.js"></script>
+      <script type="text/javascript">
+         window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+         heap.load("653142913");
+      </script>
+   </head>
+   <body>
+      <div id="top_container">
+         <nav class="flexmenu">
+            <div class="flex">
+               <img id="logo" src="logoii.png" style="cursor: pointer;" onclick="window.location='index.html';">
+               <div class="menu">
+                  <a href="about.html">About</a>
+               </div>
+               <div class="menu">
+                  <a href="Resume.pdf" target="_blank">Resume</a>
+               </div>
+               <div class="menu">
+                  <a href="connect.html">Connect</a>
+               </div>
+               <div class="mobile-menu">
+                  <span class="menu-icon open">&#x2261;</span>
+                  <span class="menu-icon close">&#x2715;</span>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <div id="top">
+         <div id="Musaic_Cover_Photo">
+            <a href="Musaic/cover.png">
+            <img src="Musaic/cover.png">
+            </a>
+         </div>
+         <div id = "Statement">
+            <span style="font-size: 20px;">
+               <span style="font-weight: bold;">Musaic</span> allows users to create a meaningful art piece displaying their musical tastes through a personal mosaic.
+            </span>
+         </div>
+      </div>
+      <div id="work">
+         <div id="gallery">
+            <div class="column_section">
+               <span style="text-decoration: underline;">Duration</span>
+               <div class="work_item">
+                  Sept 2019 - Current
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Role</span>
+               <div class="work_item">
+                  UX Design, UI Design, Front End Development
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Tools</span>
+               <div class="work_item">
+                  Sketch, Invision, HTML, CSS, Javascript, Pug/Jade 
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Platform</span>
+               <div class="work_item">
+                  Website 
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Team</span>
+               <div class="work_item">
+                  2 
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Inspiration</h1>
+         <div id="content_pic">
+            <a href="https://ericsiegelux.github.io/SS19_Information_Studies_30_Weblogs/hyperlink_project/Hypertext_Project.html" target="_blank" style="cursor: pointer;"> 
+            <img src="Musaic/inspo.png">
+            </a> 
+            <p><a href="https://ericsiegelux.github.io/SS19_Information_Studies_30_Weblogs/hyperlink_project/Hypertext_Project.html" target="_blank">Click to see my project!</a></p>
+         </div>
+         <div class = "content_statement">
+            <p>    I was taking an information studies course over the 2019 summer break and we had to make a hypertext link portrait, which was something that was created through HTML and CSS uniquely representing us. As someone who loves music, I decided to create a face composed of my favorite albums of all time (starting from the top).<br> <br>
+               I enjoyed making this "portrait," but it was incredibly tedious to do, album by album. I knew there must be a better way to directly extract album covers from popular streaming services and make different mosaics out of them. 
+            </p>
+            <p>That leads us to the <span style="font-weight: bold;font-size: 20px;">problem</span>: 
+               <span style="display: flex;font-style:italic; margin-top: 5%;font-size: 22px;color:#14B7D9"> How can we offer users the ability to create mosaics with ease?</span>
+            </p>
+         </div>
+      </div>
+      <div class="content">
+         <h1>The Pitch</h1>
+         <div id="content_pic">
+            <a>
+            <img src="Musaic/pitch.png">
+            </a>  
+            <p>Screenshot from my pitch</p>
+         </div>
+         <div class = "content_statement">
+            <p>I contacted my good friend <a href="http://ramgo.li" target="_blank">Ram</a> with a more fleshed-out version of my initial idea. Ram is a computer science major at UCLA who I knew would be able to help me bring my idea to life. As seen above, I sent him a custom "pitch" of my idea to create a website/application (at the time) that would connect the user's streaming service, ask the user for a photo, select the tiles of the mosaic from a selection menu, and return the resulting mosaic picture. <br> <br>
+               Ram responded "Dang this is sick haha...Love this."  <br> <br>
+               I successfully recruited my backend developer for this project.
+            </p>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Who are our users?</h1>
+         <div class = "content_statement" >
+            <h4>Focus #1: <br>
+               Music Streaming Service Preference
+            </h4>
+            <p> To start developing Musaic, Ram and I had to decide which music platform to focus on. Since we were only a two-person team, Ram said he would only be able to develop Musaic with one streaming service's API to roll out Musaic in a reasonable time. I was biased because I have Apple Music, but I knew we needed to collect data on people's choices in streaming services. Here are results from a survey I sent out regarding streaming services:</p>
+         </div>
+         <div class = "content_statement" style="height: 510px;">
+            <div class='tableauPlaceholder' id='viz1589241409521' style='position: relative'>
+               <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ag&#47;AgeChart_15822707351970&#47;WhatMusicServiceDoYouUse&#47;1_rss.png' style='border: none' /></a></noscript>
+               <object class='tableauViz'  style='display:none;'>
+                  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                  <param name='embed_code_version' value='3' />
+                  <param name='site_root' value='' />
+                  <param name='name' value='AgeChart_15822707351970&#47;WhatMusicServiceDoYouUse' />
+                  <param name='tabs' value='no' />
+                  <param name='toolbar' value='yes' />
+                  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ag&#47;AgeChart_15822707351970&#47;WhatMusicServiceDoYouUse&#47;1.png' />
+                  <param name='animate_transition' value='yes' />
+                  <param name='display_static_image' value='yes' />
+                  <param name='display_spinner' value='yes' />
+                  <param name='display_overlay' value='yes' />
+                  <param name='display_count' value='yes' />
+               </object>
+            </div>
+            <script type='text/javascript'>                    var divElement = document.getElementById('viz1589241409521');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='527px';vizElement.style.maxHeight='627px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='527px';vizElement.style.maxHeight='627px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+         </div>
+         <div class = "content_statement">
+            <p> I deployed the survey in two places: on UCLA's student page and on a subReddit called Sample Size where anyone can fill out a survey. Ram and I knew we would want our friends at school to use Musaic, but we were also curious to see what streaming service is popular in the general public. </p>
+            <br>
+            <p>Winner: Spotify</p>
+         </div>
+         <div class = "content_statement">
+            <h4>Focus #2: <br>
+               Spotify Playlist Usage
+            </h4>
+            <p> I wanted to know how popular sharing personal Spotify playlists were among our survey respondents:</p>
+            <div class="content_statement" style="height: 800px;">
+               <div class='tableauPlaceholder' id='viz1589244001039' style='position: relative'>
+                  <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;Musaic&#47;SharingPlaylists1&#47;1_rss.png' style='border: none' /></a></noscript>
+                  <object class='tableauViz'  style='display:none;'>
+                     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                     <param name='embed_code_version' value='3' />
+                     <param name='site_root' value='' />
+                     <param name='name' value='Musaic&#47;SharingPlaylists1' />
+                     <param name='tabs' value='no' />
+                     <param name='toolbar' value='yes' />
+                     <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Mu&#47;Musaic&#47;SharingPlaylists1&#47;1.png' />
+                     <param name='animate_transition' value='yes' />
+                     <param name='display_static_image' value='yes' />
+                     <param name='display_spinner' value='yes' />
+                     <param name='display_overlay' value='yes' />
+                     <param name='display_count' value='yes' />
+                     <param name='filter' value='publish=yes' />
+                  </object>
+               </div>
+               <script type='text/javascript'>                    var divElement = document.getElementById('viz1589244001039');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+            </div>
+            <p>There is a roughly 50/50 split for people who have personal Spotify playlists to share them amongst friends. This was a good sign for Musaic because we would be able to offer a new and exciting way for Spotify users who don't share their playlists, for whatever reason, to share them.</p>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Initial User Flow</h1>
+         <div id="logo_sketch">
+            <a>
+            <img src="Musaic/initial_user_flow.png">
+            </a>
+         </div>
+         <div class = "content_statement">
+            <p>For creating the Musaic, the user would go through three steps: <br>
+            <div id="content_pic">
+               <a>
+               <img src="Musaic/gmv.png" target="_blank">
+               </a>
+            </div>
+            </p>
+            <p>
+               The reasoning behind having the order of these three steps was to have the users realize right away that they needed a Spotify account instead of learning they needed a Spotify account after uploading a personal photo. The upload of the personal photo was chosen to be before selecting a playlist because visually, we want users to create a visual hierarchy of laying the "foundation" of their Musaic (the personal photo) first and adding the tiles (the album covers) afterward.  
+            </p>
+         </div>
+         <div id="concept_base_img">
+            <a href="conceptual_base.png" target="_blank">
+            <img src="Musaic/conceptual_base.png" target="_blank">
+            </a>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Initial Wireframe </h1>
+         <div id="mvp_wireframe">
+            <a>
+            <img src="Musaic/mvp.png">
+            </a>
+         </div>
+         <div class = "content_statement">
+            <p>After creating the Initial user flow, I had to visualize what this user flow would look like in webpages. I wanted to create rectangular buttons to, in some way, resemble the tiles of Musaics, despite betraying most modern UI trends. <br> <br>
+               Below is what the inital HTML pages looked like. There are a few changes from the grayscale wireframe to the HTML pages: <br> <br>
+               The vertical positioning of the visualizations in the wireframe to the horizontal positioning in the HTML pages. This change was made to create more space below for other items more visible such as provided photos (more about that below) and playlists.
+               <br> <br>
+               The playlist selection page in the HTML pages. Ram and I agreed that not only is it easier to program the other confirmation page, but having one page dedicated to confirming the playlist would require the focus of the user more than an overlay on the same page, therefore reducing mistakes in generating Musaics.
+            </p>
+         </div>
+         <div id="mvp_wireframe">
+            <a>
+            <img src="Musaic/html_mvp.png">
+            </a>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Style Guide</h1>
+         <div id="big_pics">
+            <a>
+            <img src="Musaic/style_guide_no_title.png">
+            </a>
+         </div>
+         <div class = "content_statement">
+            <p>With the HTML pages set in place, we needed to add some CSS files, which required a style guide.  <br> <br>
+               Besides black and white, I was looking for colors that would contrast well with the Spotify logo and would allow muasics, photos, and playlists to stand out well against the backdrop.
+            </p>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Logo Evolution</h1>
+         <div id="logo_sketch">
+            <a>
+            <img src="Musaic/logo_sketch_1.png">
+            </a>
+            <a>
+            <img src="Musaic/logo_sketch_2.png">
+            </a>
+         </div>
+         <div class = "content_statement">
+            <p>
+               I wanted to take on the task of creating Musaic's logo. Above are some initial ideas I had for what concepts of music and mosaics I could integrate into our logo.
+            </p>
+         </div>
+         <div id="content_pic">
+            <a>
+            <img src="Musaic/logo_evolution.png">
+            </a>
+         </div>
+         <div class = "content_statement">
+            <p>The process of creating Musaic's logos involved a lot of trial and error. I knew I wanted to integrate a grid into the logo and initially, I thought of making a musical note out of a colored grid. After more discussion with Ram, we thought adding a smoother music note would look cleaner. <br><br>
+               I was also deadset on having a gradient, like Instagram or Apple Music. One of my mentors told me gradients are fun, but they are hard to look at in logos. That is how Musaic's logo landed on the charcoal gray background with a black and white checkered pattern note. 
+            </p>
+         </div>
+         <div id="content_pic">
+            <a>
+            <img src="Musaic/bluenote_smaller.png">
+            </a>
+         </div>
+         <div class = "content_statement">
+            <p>
+               While the Musaic note logo was a big accomplishment for me, Musaic needed another logo that involved the name. I tried to integrate the Musaic note logo into the word 'Musaic,' but it was hard to see the detailed note logo. This led to the simple blue note replacing the 'i' in Musaic. 
+            </p>
+         </div>
+      </div>
+      <div class="content">
+         <h1>High Fidelity Mockups and Loading Animation</h1>
+         <div class = "content_statement">
+            <p>After assembling the wireframes, the style guide, and the logos, I needed to create a final reference for the actual website. This would come in the form of a high fidelity mockup for both the desktop version and mobile version of the website. The white boxes are for place holders for photos, Musaics, and Spotify albums.</p>
+         </div>
+         <div class = "content_statement">
+            <h4>Desktop High Fidelity Mockup</h4>
+         </div>
+         <div id="content_pic">
+            <a>
+            <img src="Musaic/high_fid_withwords_ii.png">
+            </a>
+         </div>
+         <div class = "content_statement">
+            <h4>Mobile High Fidelity Mockup</h4>
+         </div>
+         <div id="content_pic">
+            <a>
+            <img src="Musaic/mobile_high_fid_withwords_ii.png">
+            </a>
+         </div>
+         <div id="content_pic" style="margin-top: 2.5%;margin-bottom: 2.5%">
+            <a>
+            <iframe src="https://giphy.com/embed/jU9TmahD8J0ORjuVaO" width="324" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </a>
+         </div>
+         <div class = "content_statement">
+            <p>I wanted to create a loading animation for users while their musaic was being generated.</p>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Improvements</h1>
+         <div class = "content_statement">
+             <p>Most of these improvements are a result of Musaic being comprised of a two-person team but still should be highlighted:</p>
+            <div class="row_improvements">
+               <div class="individual_improvements">
+                  <ul style="list-style-type: circle;">
+                     <li>
+                        <h4>Size of the Musaic File and Detail of the Musaic File</h4>
+                     </li>
+                  </ul>
+                  <p>There is an inherent tradeoff with having a detailed picture of little albums and the size of the picture. We couldn't make the file too big because of the generation time and load time. The tradeoff with that is not being able to see the detailed albums when zooming all the way in, especially on mobile.</p>
+               </div>
+               <div class="individual_improvements">
+                  <ul style="list-style-type: circle;">
+                     <li>
+                        <h4>Design Choices vs Reality</h4>
+                     </li>
+                  </ul>
+                  <p> Working on Musaic taught me the importance of knowing the limitations of front end development and back end development. Not all of my initial UI designs could be implemented because of the small team and small scale of the project.</p>
+               </div>
+            </div>
+            <div class="row_improvements">
+               <div class="individual_improvements">
+                  <ul style="list-style-type: circle;">
+                     <li>
+                        <h4>Using Different Streaming Services</h4>
+                     </li>
+                  </ul>
+                  <p>Other streaming services like Apple Music or Amazon Music have APIs for us to use, but as mentioned earlier, we choose to focus on one platform.</p>
+               </div>
+               <div class="individual_improvements">
+                  <ul style="list-style-type: circle;">
+                     <li>
+                        <h4>Social Media Sharing</h4>
+                     </li>
+                  </ul>
+                  <p>I initially wanted the capability of directly sharing Musaics from our site. Again, this was a challenge for Ram to invest his valuable time in.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="content">
+         <h1>The Site</h1>
+         <div id="big_pics">
+            <a href="http://musaic-project.herokuapp.com/" target="_blank" style="align-items: center; cursor: pointer;">
+            <img src="Musaic/website.png" style="max-width: 75%;">
+            </a>
+         </div>
+         <div class = "content_statement">
+            <p>And here we are. Go check out the site and create!</p>
+         </div>
+      </div>
+      <div style="margin-bottom: 50px"></div>
+   </body>
+</html>

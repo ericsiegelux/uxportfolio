@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta property="og:title" content="SDT | Eric Siegel's UX Portfolio" />
+      <meta property="og:image" content="logoii.png" />
+      <meta property="og:url" content="http://siegelux.com" />
+      <link rel="shortcut icon" href="tab_icon.png" type="image/png">
+      <title>SDT | Eric Siegel's UX Portfolio</title>
+      <link rel="stylesheet" href="SDT.css">
+      <script src="navbar.js"></script>
+      <script type="text/javascript">
+         window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+         heap.load("653142913");
+      </script>
+   </head>
+   <body>
+      <div id="top_container">
+         <nav class="flexmenu">
+            <div class="flex">
+               <img id="logo" src="logoii.png" style="cursor: pointer;" onclick="window.location='index.html';">
+               <div class="menu">
+                  <a href="about.html">About</a>
+               </div>
+               <div class="menu">
+                  <a href="Resume.pdf" target="_blank">Resume</a>
+               </div>
+               <div class="menu">
+                  <a href="connect.html">Connect</a>
+               </div>
+               <div class="mobile-menu">
+                  <span class="menu-icon open">&#x2261;</span>
+                  <span class="menu-icon close">&#x2715;</span>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <div id="top">
+         <div id="Cover_Photo">
+            <a href="sdt.png">
+            <img src="SDT/sdt.png">
+            </a>
+         </div>
+         <div id = "Statement">
+            <span style="font-size: 20px;">
+            <span style="font-weight: bold;">Signal Detection Theory for Mobile Interfaces</span>
+            This experiment was designed to find empirical evidence of a significant effect in placing important information in certain quadrants of a mobile screen</span>
+         </div>
+      </div>
+      <div id="work">
+         <div id="gallery">
+            <div class="column_section">
+               <span style="text-decoration: underline;">Duration</span>
+               <div class="work_item">
+                  Feb 2020 - Mar 2020 
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Role</span>
+               <div class="work_item">
+                  Experimental Researcher, Experimental Designer
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Tools</span>
+               <div class="work_item">
+                  Microsoft Excel, Matlab, Psychtoolbox, Sketch 
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Platform</span>
+               <div class="work_item">
+                  Mobile
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Team</span>
+               <div class="work_item">
+                  2 
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Introduction</h1>
+         <div class = "content_statement">
+            <p >In Winter Quarter 2020, I was taking an undergraduate laboratory course for my cognitive science major called Psychology 186C: Psychophysical Theories and Methods.  <br><br>
+               The course was taught by <a href="https://www.jasonsjournal.co/">Dr. Zili Liu</a>, a UCLA psychology professor who runs his own lab focusing on computational, psychophysical, and neuroimaging techniques in order to help understand the way in which our brains construct our reality. The emphasis of the class was on signal detection theory, which I will cover shortly. <br><br>
+               A requirement for the course was to design an experiment that utilized signal detection theory. I worked with a fellow classmate, <a href="https://www.jasonsjournal.co/">Jason Kuang</a>, to create an experiment that was focused on our shared interest in UI Design and UX Design. 
+            </p>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Signal Detection Theory <br> (In A Nutshell)</h1>
+         <div class = "content_statement">
+            <p>Signal Detection Theory (SDT) allows researchers to measure the abilities of people to detect a stimulus when presented among randomness or, as it is called in signal detection theory, noise. This broad definition allows for SDT to be applied to scenarios such as testing whether an x-ray is normal or abnormal or whether an earthquake is occurring or not. <br><br>
+            </p>
+         </div>
+         <div class = "content_statement">
+            <h4>Key Measurements in SDT</h4>
+            <p>All statistics that are used in signal detection theory come from four basic measurements:</p>
+            <div id="vizandinstr">
+               <div id="instruction">
+                  <h4 style="margin-bottom: 0px;">Hit</h4>
+                  <p>When a signal is present and the participant says the signal is present</p>
+               </div>
+               <div id="instruction">
+                  <h4 style="margin-bottom: 0px;">Miss</h4>
+                  <p>When a signal is present but the participant says the signal is not present</p>
+               </div>
+            </div>
+            <div id="vizandinstr">
+               <div id="instruction">
+                  <h4 style="margin-bottom: 0px;">False Alarm</h4>
+                  <p>When only noise is present but the participant says the signal is present</p>
+               </div>
+               <div id="instruction">
+                  <h4 style="margin-bottom: 0px;">Correct Rejection</h4>
+                  <p>When only noise is present and the participant says there is no signal</p>
+               </div>
+            </div>
+            <p>Below is a commonly used chart of the four key measurements in signal detection theory</p>
+         </div>
+         <div id="content_pic">
+            <a href="chart.png" target="_blank">
+            <img src="SDT/chart.png">
+            </a> 
+         </div>
+         <div class = "content_statement">
+            <h4>Distributions of Signal and Noise</h4>
+            <p>The analysis of a signal detection experiment relies on assuming a distribution of signal events and noise events. What this means is there are separate probabilities of experiencing a signal event or a noise event. The distribution curves below are representative of theoretical noise and signal events. The higher the point on the distribution, the more likely it will occur.</p>
+         </div>
+         <div id="content_pic">
+            <a href="dist2.png" target="_blank">
+            <img src="SDT/dist2.png">
+            </a> 
+            <p><a href="https://www.amazon.com/Elementary-Signal-Detection-Theory-Wickens/dp/0195092503">Wickens, T. D. (2002). Elementary signal detection theory. Oxford University Press. Page 12 </a></p>
+         </div>
+         <div class = "content_statement">
+            <p>Now, when we overlay the signal distribution curve and the noise distribution curve, we see some overlap in the middle. This is where a participant is more likely to rely on guessing. <br><br>
+               The first little character on the x-axis &#955; ,or lambda, is what we call our decision criteria. The decision criteria is established through data collection of a participant's hits, misses, correct rejections, and false alarms. It's placement on a graph like the one below tells researchers what a participant's typical response behavior is statistically. <br><br>
+               The other character on the x-axis <span style="font-style: italic;">d'</span> is known as sensitivity. <span style="font-style: italic;">d'</span> measures how close the noise and signal distribution are to each other. The closer they are to each other, the harder it is to discriminate between noise and signal.
+            </p>
+         </div>
+         <div id="content_pic">
+            <a href="dist3.png" target="_blank">
+            <img src="SDT/dist3.png">
+            </a> 
+            <p><a href="https://www.amazon.com/Elementary-Signal-Detection-Theory-Wickens/dp/0195092503">Wickens, T. D. (2002). Elementary signal detection theory. Oxford University Press. Page 13 </a></p>
+         </div>
+         <!-- <div class = "content_statement">
+            <p>For example, the graph below shows</p>
+            </div>
+            
+            <div id="content_pic">
+            <a href="dist4.png" target="_blank">
+              <img src="SDT/dist4.png">
+            </a> 
+            <p><a href="https://www.amazon.com/Elementary-Signal-Detection-Theory-Wickens/dp/0195092503">Wickens, T. D. (2002). Elementary signal detection theory. Oxford University Press. Page 15 </a></p>
+            </div>
+            
+            <div class = "content_statement">
+            <p></p>
+            </div> -->
+      </div>
+      <div class="content">
+         <h1>The Idea</h1>
+         <div class = "content_statement" >
+            <p>Jason and I started to discuss how the UX design process relies on a scientific process before rolling out products, yet there seem to be differences across all websites and applications. This might sound like a silly statement because every website/application has a unique function and service but look at the photos below. <br><br>
+            </p>
+         </div>
+         <div id="content_pic">
+            <a href="pop_ui.png" target="_blank">
+            <img src="SDT/pop_ui.png">
+            </a> 
+         </div>
+         <div class = "content_statement" >
+            <p> The red ovals are circling the new post functionality, yet they are in different positions on the mobile screen. I pulled them from Facebook's, Instagram's, and the Note's application page on the app store, respectively. All of these example users are presented in portrait mode, not landscape mode. <br><br> 
+               These findings into applications lead us to ask two questions that would form the foundation of our experiment:
+            </p>
+            <ol style="text-align: left;">
+               <li>Are users more sensitive to certain areas of mobile interfaces?</li>
+               <li>If users are sensitive to a certain area, is the area dependent on a mobile device being in landscape mode versus portrait mode?</li>
+            </ol>
+         </div>
+      </div>
+      </div>
+      <div class="content">
+         <h1>Literature Review on Visual Search</h1>
+         <div class = "content_statement">
+            <p>
+               In explaining our discussions to Dr. Liu, we explained how our experiment would involve the topic of Visual Search.
+               Visual search is a type of perceptual task typically involving an active scan of a visual environment for a particular object or feature (signal) among other objects (noise). <br><br>
+               A literature review on visual search and visual search experiments pertaining to mobile devices was our next step. Below is an example of a visual search experiment offered through software from the University of Indiana Bloomington.<br><br>
+            </p>
+         </div>
+         <div id="content_pic">
+            <a href="https://pcl.sitehost.iu.edu/CogSciSoftware/VisualSearch/" target="_blank">
+            <img src="SDT/vs_ex.png">
+            </a> 
+         </div>
+         <div class = "content_statement">
+            <p>
+               A common theme appearing in our research of visual search on mobile devices was the F-shaped pattern for text scanning. The F-shaped pattern appears when a user scans the first row of text thoroughly and each subsequent row below is less thoroughly examined. The F-shape arises in people whose language reads from left to right.<br><br>
+            </p>
+         </div>
+         <div id="content_pic">
+            <a href="https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/" target="_blank">
+            <img src="SDT/fshape.png">
+            </a> 
+         </div>
+         <div class = "content_statement">
+            <p>
+               The F-shape pattern was the key to forming our hypothesis:  <br><br>
+               <span style="font-style: italic;margin: 0px;">Given typical web reading patterns, users are more sensitive to Quadrant 2 and 3 of a mobile interface, regardless of orientation.</span>
+            </p>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Pre-Experimental Design</h1>
+         <div class = "content_statement">
+            <p>Before designing mobile assets for our experiment, Jason and I wanted to know what phones were popular among our peers at UCLA, who would be participants for our experiments. We sent out a google form through UCLA's student Facebook page asking what phone they used.</p>
+         </div>
+         <div class="content_statement">
+            <div class='tableauPlaceholder' id='viz1589243641723' style='position: relative'>
+               <noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;SD&#47;SDT_Phone&#47;Viz&#47;1_rss.png' style='border: none' /></a></noscript>
+               <object class='tableauViz'  style='display:none;'>
+                  <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                  <param name='embed_code_version' value='3' />
+                  <param name='site_root' value='' />
+                  <param name='name' value='SDT_Phone&#47;Viz' />
+                  <param name='tabs' value='no' />
+                  <param name='toolbar' value='yes' />
+                  <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;SD&#47;SDT_Phone&#47;Viz&#47;1.png' />
+                  <param name='animate_transition' value='yes' />
+                  <param name='display_static_image' value='yes' />
+                  <param name='display_spinner' value='yes' />
+                  <param name='display_overlay' value='yes' />
+                  <param name='display_count' value='yes' />
+                  <param name='filter' value='publish=yes' />
+               </object>
+            </div>
+            <script type='text/javascript'>                    var divElement = document.getElementById('viz1589243641723');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.minWidth='420px';vizElement.style.maxWidth='650px';vizElement.style.width='100%';vizElement.style.minHeight='587px';vizElement.style.maxHeight='887px';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+         </div>
+         <div class = "content_statement">
+            <p>The iPhone 11 was the winner. The screen for the iPhone 11 is almost identical to the screens of iPhone 11 Pro, iPhone X, iPhone XS, and iPhone XR, which accounts for 49.04% of respondents. This finding allowed us to have more confidence in our participants' familiarity with the iPhone 11 screen interface.</p>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Experimental Design</h1>
+         <div class = "content_statement">
+            <p>Our first step in the experimental design was to create iPhone 11 assets in Sketch.</p>
+         </div>
+         <div id="content_pic">
+            <a href="assets_wquad.png" target="_blank">
+            <img src="SDT/assets_wquad.png">
+            </a>
+         </div>
+         <div class = "content_statement">
+            <p>Then we had to divvy up the number of signal trials and noise trials:</p>
+         </div>
+         <div id="content_pic">
+            <a href="divy.png" target="_blank">
+            <img src="SDT/divy.png">
+            </a>
+         </div>
+         <div class = "content_statement">
+            <p>From the graphic, we knew we would have four times as many noise trials for every one quadrant on the phone</p>
+            <p>Dr. Liu had some helpful advice on applying aspects of previous visual search experiments into our own experiment for validity. By using already proven knowledge, we could isolate our findings to the new aspects of the experiment. <br><br>
+               Jason and I decided to incorporate the following into our experiment:
+            </p>
+            <ul type="circle">
+               <li>
+                  A Fixation Cross
+                  <br> 
+                  <p style="margin-left: 2.5%;">The fixation cross (as seen in step 1 below) is meant to draw the user's attention to the center of the screen each trial. </p>
+               </li>
+               <li>
+                  Reusing Visual Search Targets
+                  <br>
+                  <p style="margin-left: 2.5%;">After coming across the letters "T" and "L" used in a visual search experiment from Indiana University (as seen above), we decided to use the two letters for our visual search task. Dr. Liu approved of the combination of the two letters by their similar straight lines, but the different placement of said straight lines. </p>
+               <li>
+                  Level of Difficulty
+                  <br>
+                  <p style="margin-left: 2.5%;">Dr. Liu explained that with visual search tasks, the task needed to be challenging but not impossible. We had some students in another psychology lab run our experiment and found that presenting the phone stimulus for 0.625 seconds added the best sense of difficulty without making the task too hard</p>
+               </li>
+               </li>
+            </ul>
+         </div>
+         <div class = "content_statement">
+            <p>From this, we made a noise trial a screen with all L's and a signal trial with one T placed in one of the four quadrants.</p>
+         </div>
+         <div id="content_pic">
+            <a href="letter_assets.png" target="_blank">
+            <img src="SDT/letter_assets.png">
+            </a>
+         </div>
+         <div class = "content_statement">
+            <p>Combining all the elements together in <a href="https://github.com/ericsiegelux/Psych186C_FinalExperiment">a Matlab script</a>, this is what one trial would look like:</p>
+         </div>
+         <div id="content_pic">
+            <a href="https://giphy.com/gifs/J5qDFasa2UP62vxMtR" target="_blank">
+            <iframe src="https://giphy.com/embed/J5qDFasa2UP62vxMtR" width="480" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </a>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Data Analysis</h1>
+         <div class = "content_statement">
+            <p>Jason and I conducted the experiment in our class of 11 other students, which is a very small sample size. The experiments were conducted on iMac Desktops in the UCLA psychology computer lab.</p>
+         </div>
+         <div id="content_pic">
+            <a href="stats.png" target="_blank">
+            <img src="SDT/stats.png">
+            </a>
+         </div>
+         <div class = "content_statement">
+            <p>From the average hit rates, we see there are visible differences in average hit rates across landscape modes and portrait modes. While these might be encouraging, we had to run an ANOVA (analysis of variance) to determine statistical validity of the hit rates. From the ANOVA test, we got found statistically differences between quadrants on different phone positions (<span style="font-style: italic;">P</span> = 0.000000743). <br><br>
+               Through post-hoc tests to find statistically significant differences between the two groups, we found relevant, significant differences between the following quadrants:
+            </p>
+            <ul style="text-align: left;list-style: circle;">
+               <li>Landscape Quadrant 2 vs Landscape Quadrant 4 (<span style="font-style: italic;">P</span> = 0.00854)</li>
+               <li>Landscape Quadrant 2 vs Portrait Quadrant 2 (<span style="font-style: italic;">P</span> = 0.03196)</li>
+               <li>Landscape Quadrant 3 vs Portrait Quadrant 3 (<span style="font-style: italic;">P</span> = 0.00310)</li>
+            </ul>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Conclusion</h1>
+         <div class = "content_statement">
+            <p>Our hypothesis was correct in predicting user's would be more sensitive to quadrant 2 and quadrant 3, but only in portrait mode. From the post hoc tests, we saw statistically significant differences in the hit rates between quadrant 2 and quadrant 3 between landscape mode and portrait mode. In landscape mode, it seemed that quadrant 1 and quadrant 4 were more sensitive to detection. <br><br>
+               While it should be noted that the sample size used in this experiment was quite limited, continued investigation into this topic could find similar results. Jason and I's initial hypothesis was not proven and the notation that landscape mode and portrait mode have quadrant sensitivities could be of use to UX and UI designers. If more data is collected in experiments similar to this one, UX and UI should still use it on a case by case basis in their designs as to not interfere with aesthetic aspects of interfaces.
+            </p>
+         </div>
+      </div>
+   </body>
+</html>

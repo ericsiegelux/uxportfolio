@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta property="og:title" content="CHLA | Eric Siegel's UX Portfolio" />
+      <meta property="og:image" content="logoii.png" />
+      <meta property="og:url" content="http://siegelux.com" />
+      <link rel="shortcut icon" href="tab_icon.png" type="image/png">
+      <title>CHLA | Eric Siegel's UX Portfolio</title>
+      <link rel="stylesheet" href="CHLA.css">
+      <script src="navbar.js"></script>
+   </head>
+   <body>
+      <div id="top_container">
+         <nav class="flexmenu">
+            <div class="flex">
+               <img id="logo" src="logoii.png" style="cursor: pointer;" onclick="window.location='index.html';">
+               <div class="menu">
+                  <a href="about.html">About</a>
+               </div>
+               <div class="menu">
+                  <a href="Resume.pdf" target="_blank">Resume</a>
+               </div>
+               <div class="menu">
+                  <a href="connect.html">Connect</a>
+               </div>
+               <div class="mobile-menu">
+                  <span class="menu-icon open">&#x2261;</span>
+                  <span class="menu-icon close">&#x2715;</span>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <div id="top">
+         <div id="Cover_Photo">
+            <a>
+            <img src="CHLA/cover.png">
+            </a>
+         </div>
+         <div id = "Statement">
+            <span style="font-size: 20px;">
+            <span style="font-weight: bold">CHLA APP</span>A mobile application that helps reduce the number of unnecessary pediatric surgery cancellations. 
+         </div>
+      </div>
+      <div id="work">
+         <div id="gallery">
+            <div class="column_section">
+               <span style="text-decoration: underline;">Duration</span>
+               <div class="work_item">
+                  June 2019 - December 2019
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Role</span>
+               <div class="work_item">
+                  UX Researcher, UX Designer, UI Designer
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Tools</span>
+               <div class="work_item">
+                  InVision Studio, Sketch
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Platform</span>
+               <div class="work_item">
+                  Mobile
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Team</span>
+               <div class="work_item">
+                  3
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Introduction</h1>
+         <div class = "content_statement">
+            <p>
+               During the summer of 2019, I had a UX Design internship for a mobile application for CHLA (Children's Hospital Los Angeles). Due to an NDA, I was not able to
+               use my team's materials. Instead, I decided to recreate the application using solely my vision. 
+            </p>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Project Overview and Research</h1>
+         <div class = "content_statement">
+            <h4>The Problem</h4>
+            <p>When it comes to pediatric surgeries, families are not properly informed and prepared. Medical professionals can provide some guidance to parents/guardians in navigating patient journeys but are not always available to answer questions. Additionally, children are often left in the dark about the actual procedure, and as a result, are less willing to cooperate with doctors and nurses. <br>
+               This begs the question: <br><br>
+               <span style="font-size: 22px;display: flex;margin-top: 5px;"></span>
+               <span style="font-size: 22px;display: flex;font-style: italic;margin-bottom: 5px;color:#005B98;">How can we successfully inform and prepare parents/guardians of patients and patients for surgery? </span>
+            <div id="content_pic">
+               <a>
+               <img src="CHLA/problem.png">
+               </a> 
+            </div>
+            <h4>The Solution: The CHLA app</h4>
+            <p>The CHLA app is our solution to mitigating surgery cancellations and readmittance to hospitals. After a brief onboarding process, the CHLA app is divided into two sides: a parent side and a child side. The parent side provides a timeline with chronologically ordered information to prepare a family for the surgery. The child side educates children on the surgery process with an interactive journey game.
+               To highlight the need for an app like the CHLA app, we started with extensive research on surgeries in the United States and decided to focus our attention on tonsillectomies for the CHLA app prototype. 
+            <h4>Facts and Figures</h4>
+            <div id="content_pic">
+               <a>
+               <img src="CHLA/figures.png">
+               </a> 
+            </div>
+            <p>In the United States, there are about 1.848 million hospital stays annually for children ages 0-17, excluding neonatal and maternal stays (<a href="https://www.hcup-us.ahrq.gov/reports/statbriefs/sb187-Hospital-Stays-Children-2012.pdf">source</a>). With regard to tonsillectomy procedures, 500,000 cases are performed annually on children under 15 years of age (<a href="https://www.ncbi.nlm.nih.gov/books/NBK536942/">source</a>), which accounts for 27% of the child hospital stays.<br><br>  
+               Statistically, there are more recorded cases of procedures than children admitted to the hospital due to surgical readmissions. For tonsillectomies, about 3.6% of patients are readmitted, primarily due to dehydration (47%) and hemorrhage (26%) (<a href="https://www.ncbi.nlm.nih.gov/pubmed/29501287">source</a>). 3.6% seems insignificant, but that is 18,000 children being readmitted. This is a problem for hospitals because it interferes with scheduled surgeries. Both of these causes are easily preventable if /guardians and patients are educated on the proper steps to recovery before the actual surgery. As a result, providing access to this information ahead of time will reduce surgical readmissions. 
+            </p>
+            <h4>Interviews with Hospital Staff</h4>
+            <p>
+               My team had the opportunity to interview some healthcare professionals at Children's Hospital Los Angeles to see what their experience was with patients not being prepared for their surgery or last-minute cancellations. <br><br>
+               Below are three quotes from healthcare professionals at CHLA that further elaborated on the problems our app was trying to solve
+            </p>
+            <div id="content_pic">
+               <a>
+               <img src="CHLA/quotes.png">
+               </a> 
+            </div>
+            <p>
+               The 3 major takeaways from our interviews:
+            </p>
+            <ol>
+               <li>There needs to be a balance between sufficiently informing families and not overwhelming them with information</li>
+               <li>A number of the cancellations are preventable</li>
+               <li>The parents/guardians and children both need to be engaged in preparing for surgery</li>
+            </ol>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Ideation</h1>
+         <div class = "content_statement">
+            <h4>User Flows</h4>
+            <div class = "content_statement">
+               <p style="font-weight: bold">Onboarding</p>
+               <p>The child's parent or guardian would set up the app to provide the proper information for their child's specific surgery. The end of the onboarding process is to direct the user to either the parent side of the app or the child side of the app. The user will be given the flexibility to toggle between the two sides in the settings later on.
+               </p>
+               <div id="content_pic">
+                  <a>
+                  <img src="CHLA/userflow1.png">
+                  </a> 
+               </div>
+               <p style="font-weight: bold">Parent Side Functionalities</p>
+               <h5 style="font-weight: bold">General Information</h5>
+               <p>The general information feature was created so that parents/guardians could keep track of the surgery process and avoid going to Google for answers. Google can provide an overwhelming amount of information, with some of it not pertaining to the particular family involved. This lead to creating a general information section with only three main points of emphasis: About the Surgery, The Healthcare Team, and Anesthesia.</p>
+               <div id="content_pic">
+                  <a>
+                  <img src="CHLA/userflow2.png">
+                  </a> 
+               </div>
+               <p style="font-weight: bold">Timeline</p>
+               <p>The interactive timeline feature is the main point of attraction to using the CHLA app. The timeline feature keeps parents/guardians active in the process of preparing before and after their child's surgery without overwhelming them the night before the surgery or right after their child is discharged from the hospital. The timeline incorporates manageable checklists as well as informational articles to adequately prepare the parents/guardians for each phase of the surgery process. 
+               </p>
+               <div id="content_pic">
+                  <a>
+                  <img src="CHLA/userflow3.png">
+                  </a> 
+               </div>
+            </div>
+            <h4>Wireframe</h4>
+            <div class = "content_statement">
+               <p>My initial wireframe sketches came down to four main screens:</p>
+               <div id="wireframe">
+                  <a >
+                  <img src="CHLA/wireframe.png">
+                  </a> 
+               </div>
+               <p></p>
+            </div>
+            <h4>Visual Design Keys</h4>
+            <p>Having previous experience in designing for healthcare websites and applications, I knew there were a couple of imperative points I wanted to influence my UI design: <br><br> 
+            </p>
+            <ol>
+               <li>The goal of using the CHLA app is to lessen the burden of whatever the user is already going through. This means not distracting the user with superfluous icons, colors, or anything of the like.</li>
+               <br>
+               <li>It is better to add elements of UI designs that are typically found in popular applications to make the CHLA app's use as easy as possible. This includes having a toolbar menu at the bottom of the screen and universally understood icons.</li>
+            </ol>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Prototype</h1>
+         <div class = "content_statement">
+            <p> Click in the highlighted sections to interact with this prototype. To go backward in the prototype, swipe right. </p>
+         </div>
+         <div class="content">
+            <iframe src="https://ericsiegel277689.invisionapp.com/public/prototype/skdxlblcf006bm2017opz71bm/81a97858"></iframe>
+         </div>
+      </div>
+      <div class="content">
+         <h1>What I learned & Conclusion</h1>
+         <div class = "content_statement">
+            <p>Designing the CHLA App reinforced the importance of designing with a purpose. With a design culture fixated on visually appealing designs at the expense of usability, I knew it was in the best interest of CHLA App users to have an app prioritizing function rather than trendy designs. I also learned how difficult it can be to try to be informative and brief with regards to informing others. <br><br>
+               The concept of creating a mobile app to guide patients and their families through a surgical process can be extended to many more hospitals and for many more kinds of surgery. With applications like the CHLA app, we can alleviate burdens on hospitals, patients' families, and the patients themselves.
+            </p>
+         </div>
+      </div>
+      </div>
+   </body>
+</html>

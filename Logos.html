@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta property="og:title" content="Logos | Eric Siegel's UX Portfolio" />
+      <meta property="og:image" content="logoii.png" />
+      <meta property="og:url" content="http://siegelux.com" />
+      <link rel="shortcut icon" href="tab_icon.png" type="image/png">
+      <title>Logos | Eric Siegel's UX Portfolio</title>
+      <link rel="stylesheet" href="Logos.css">
+      <script src="navbar.js"></script>
+   </head>
+   <body>
+      <div id="top_container">
+         <nav class="flexmenu">
+            <div class="flex">
+               <img id="logo" src="logoii.png" style="cursor: pointer;" onclick="window.location='index.html';">
+               <div class="menu">
+                  <a href="about.html">About</a>
+               </div>
+               <div class="menu">
+                  <a href="Resume.pdf" target="_blank">Resume</a>
+               </div>
+               <div class="menu">
+                  <a href="connect.html">Connect</a>
+               </div>
+               <div class="mobile-menu">
+                  <span class="menu-icon open">&#x2261;</span>
+                  <span class="menu-icon close">&#x2715;</span>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <div id="top">
+         <div id="Cover_Photo">
+            <a>
+            <img src="logos_cover.png">
+            </a>
+         </div>
+         <div id = "Statement">
+            <span style="font-size: 20px;">
+               <span style="font-weight:bold">Logos</span>
+               Redesigning the homepage/main feed for a startup news organization.
+            </span>
+         </div>
+      </div>
+      <div id="work">
+         <div id="gallery">
+            <div class="column_section">
+               <span style="text-decoration: underline;">Duration</span>
+               <div class="work_item">
+                  July 2020 - Present
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Role</span>
+               <div class="work_item">
+                  UX/UI Designer, UX Researcher
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Tools</span>
+               <div class="work_item">
+                  Figma
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Platform</span>
+               <div class="work_item">
+                  Responsive Web App
+               </div>
+            </div>
+            <div class="column_section">
+               <span style="text-decoration: underline;">Team</span>
+               <div class="work_item">
+                  5
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Introduction</h1>
+         <div class = "content_statement">
+            <p> 
+               <a href="https://logosnews.tech/" target="_blank">Logos</a> is a decentralized news platform for the new age of digital media. <br><br>
+               I was brought on to the Logos design team to enhance the user experience of the main news feed. The CEO was looking for our team to conduct a complete redesign of the site. This involved building a new style guide for the site to use for our individual designs.
+            </p>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Problem Statement</h1>
+         <div class = "content_statement">
+            <p>After being onboarded with Logos and the design team, the problem statement became clear: How could I strike a balance between conventional design while showcasing Logos' innovative features?<br><br>
+            	<span style="font-size:22px;font-weight:600;font-style:italic;color:#33639E">. </span>
+            </p>
+         </div>
+      </div>
+      <div class="content">
+         <h1>Homepage Research</h1>
+         <div class = "content_statement">
+            <h3>Previous Research and Designs</h3>
+            <p>Before coming on for the homepage redesign, I was given previous research and a live design of the site to work with. <br><br>
+
+               From its inception, Logos has wanted to integrate elements of Facebook's home page layout into its own main feed. It's undeniable that Facebook has the ability to set trends. Below is a wireframe of the three-section layout for Facebook's home page.
+            </p>
+
+               <div id="content_pic">
+                  <a>
+                     <img src="Logos/fbhomepage.png">
+                  </a> 
+               </div>
+
+               <p>Below is the old Logos site, which integrates the middle and right portions of Facebook's home page, but needs the left portion of the site integrated.</p>
+
+               <div id="content_pic">
+                  <a>
+                     <img id="old_site" src="Logos/oldlogos.png" style="max-width: 75%;">
+                  </a> 
+                  <p>Logo's old homepage</p> 
+               </div>
+               <p>I was directed to keep the following elements in my redesign:
+               	<ol>
+                     <li>  The Header with Search Bar and Icons</li>
+                     <li>  The Subscriptions Section </li>
+                     <li>  The Suggested People Section</li>
+                   </ol>
+               </p>
+                <div id="content_pic">
+                  <a>
+                     <img src="Logos/operation.png" style="max-width: 75%;">
+                  </a> 
+                  <p>Logo's old homepage</p> 
+               </div>
+               <p>The main changes that I implemented to align with Facebook's homepage is: 
+                  <ol>
+                     <li>  Add left portion: The Navigation Bar</li>
+                     <li>  Create article sections </li>
+                     <li>  Restructure article cards</li>
+                   </ol>
+               </p>
+
+
+
+         </div>
+         <div class = "content_statement" id="initial_research">
+            <h3>My Research</h3>
+         	<p>I looked into the top 10 web app news sources (<a href="https://www.agilitypr.com/resources/top-media-outlets/top-10-daily-american-newspapers/">source</a>). Here are some quick notes on the common themes and patterns across these sites: </p>
+         	<p>
+         		8 out of the 10 sites had a navigation bar with different sections (sports, business, etc.) <br><br>
+
+         		Borders are dictated by margins, margin lines. If you zoom in, you can see light gray lines creating space for the articles and sections, but the lines that are perpendicular to each other never touch. The articles act as their own entities, but the sites display a level of cohesiveness in their proximity. You will also notice there is a mix of sizing and positioning with articles, especially with the featured section of news publications. Some are horizontal and some are vertical. <br><br>
+
+         		<div id="content_pic">
+            		<a>
+            			<img src="Logos/news_research.png">
+            		</a> 
+         		</div>
+			      <p>
+            		The article “tiles” have three main components of an article I found across the top websites are:
+               </p>
+            		 <ol>
+            		 	<li>  Thumbnail</li>
+            		 	<li>  Title</li>
+            		 	<li>  Subheading (a sentence or two long)</li>
+
+            		 </ol>
+            	<p>
+            		 As seen with the New York Times above, the featured article sections of most popular news sites are skeuomorphic in that they resemble a physical newspaper with an asymmetrical layout. For subsections of a site, it becomes a toss-up between a symmetrical layout (typically with horizontal article tiles) and an asymmetrical layout.
+               </p>
+
+         </div>
+      </div>
+
+      <div class="content">
+         <h1>Brand Guide Contributions</h1>
+         <div class = "content_statement">
+            <p>Before creating the necessary wireframes for the homepage, I had to contribute to <a href="https://www.chienchwu.com/logos-news-design-system.html"> a new brand guide </a>. I was in charge of creating a new grid system for the site and the reflection of that grid system would be first reflected on the homepage. <br><br>
+            Below are the grids for a desktop screen and a homepage screen:
+            </p>
+            <div id="content_pic">
+                  <a>
+                     <img src="Logos/grid.png">
+                  </a> 
+               </div>
+         </div>
+      </div>
+
+      <div class="content">
+         <h1>Wireframes</h1>
+         <div class = "content_statement">
+            <p>Taking with my design team, we wanted to implement these three sections into the main feed: </p>
+            <ol>
+                  <li>  Featured Articles</li>
+                  <li>  Recommended Articles</li>
+                  <li>  An Infinite Scroll Feed</li>     
+            </ol>
+            <p>So, the basic structure of the site would look like this:</p>
+
+            <div id="big_pic_plus">
+                  <a>
+                     <img src="Logos/wireframe_structure.png">
+                  </a> 
+            </div>
+            <p>From here, we need to create new components. From my <a href="#initial_research">initial research,</a> I was looking for each section of articles to have a different layout to get rid of <a href="#old_site">a lack of diversity and a lack of organization on the original site</a>. In addition to the article sections, I also created a simple section bar to be placed on the left side of the site to fulfill the intended Facebook layout: </p>
+            <div id="big_pic_plus">
+                  <a>
+                     <img src="Logos/new_comp.png">
+                  </a> 
+            </div>
+            <p>Putting the original intended structure of the site with these new components, I got these two variations of a potential homepage:</p>
+            <div id="big_pic_plus">
+                   <a>
+                     <img src="Logos/wireframe_vari.png">
+                  </a> 
+            </div>
+            <p> I was looking to use the side margins of the site to make it look like a modern news site like <a href="medium.com" target="_blank">Medium</a>. The reason for the two different variations comes with the placement of the subscriptions and suggested people divs. I was trying to convince my supervisor that potentially fitting the subscriptions and suggested people divs within the feed of the homepage would create a seamless design. This led to our team deciding to move forward with my new design on the right. </p>
+         </div>
+      </div>
+       <div class="content">
+         <h1>High Fidelity Mockup</h1>
+          <div class = "content_statement">
+            <p>I implemented cover images for the article, fake authors, and real headlines in my mobile and desktop mockups below.</p>
+            <div id="prototypes">
+               <div id="big_pic_plus" style="flex-direction: column;">
+                     <a>
+                        <iframe id="mobile" style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FBbsolGtI3bZ7JSX6Z4HKLD%2FLogo-s-Portfolio%3Fnode-id%3D15%253A534%26viewport%3D1142%252C1016%252C0.6061676144599915%26scaling%3Dscale-down-width" allowfullscreen></iframe>
+                     </a> 
+                     <p style="font-size: 18px;">Mobile Mockup</p>
+               </div>
+
+               <div id="big_pic_plus" style="flex-direction: column;">
+                     <a>
+                        <iframe id="desktop" style="border: 1px solid rgba(0, 0, 0, 0.1);" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FBbsolGtI3bZ7JSX6Z4HKLD%2FLogo-s-Portfolio%3Fnode-id%3D8%253A196%26viewport%3D865%252C1025%252C0.6061676144599915%26scaling%3Dscale-down-width" allowfullscreen></iframe>
+                     </a> 
+                     <p id="prototype_dekstopP">Desktop Mockup</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="content">
+         <h1>User Interviews</h1>
+         <div class = "content_statement">
+            <p>With my mobile design and desktop design in a high fidelity mockup, it was time for me to find out what people thought of the design and what could be improved. I waited a week or so to have my designs implemented on Logos' live site by the web development team.<br><br>
+
+            These are the positive results from 8 user interviews:<br>
+            </p>
+            <div id="big_pic_plus">
+                  <a>
+                     <img src="Logos/results.png">
+                  </a> 
+            </div>
+               <p>I also collected someof the feedback for what I could do to improve my mockups:</p>
+                <ul>
+                  <li>  "The contrast for the search bar can be improved."</li>
+                  <li>  "What kind of articles are in the Feed? I'm confused"</li>
+                  <li>  "I feel as if the design is too 'boxy' and there is nothing distinguishing the elements."</li>     
+               </ul>
+            </div>
+         </div>
+         <div class="content">
+            <h1>Moving Forward</h1>
+            <div class = "content_statement">
+               <p>I have taken these suggestions above and worked with the web development team to implement quick changes. At the time of writing this, I am continuing to work on improving the UX design and UI design of the homepage from those user interviews. <br><br>
+               As I conclude this case study and continue working for Logos going into Fall 2020, I am also working on Logos' profile redesign and article redesign, as well as improving the homepage to reflect Logos' mission to deliver news transparently.</p>
+            </div>
+            <div style="margin-bottom: 50px"></div>
+         </div>
+      </div>
+   </body>
+</html>
